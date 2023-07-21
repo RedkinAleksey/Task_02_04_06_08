@@ -15,9 +15,9 @@ if(number1==number2)
 }
 else if (number1 > number2)
     {
-        Console.WriteLine("Первое число большее, второе меньшее.");
+        Console.WriteLine($"Первое число {number1} большее, второе {number2} меньшее.");
     }
     else
     {
-        Console.WriteLine("Второе число большее, первое меньшее.");
+        Console.WriteLine($"Второе число {number2} большее, первое {number1} меньшее.");
     }
